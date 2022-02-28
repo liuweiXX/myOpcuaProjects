@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/modbus/modbus-rtu.h
+modbus.h
+../src/include/modbus/modbus.h
+
+../src/include/modbus/modbus-tcp.h
+modbus.h
+../src/include/modbus/modbus.h
+winsock2.h
+-
+
+../src/include/modbus/modbus-version.h
+
+../src/include/modbus/modbus.h
+sys/param.h
+-
+stdint.h
+-
+stdint.h
+../src/include/modbus/stdint.h
+modbus-version.h
+../src/include/modbus/modbus-version.h
+modbus-tcp.h
+../src/include/modbus/modbus-tcp.h
+modbus-rtu.h
+../src/include/modbus/modbus-rtu.h
+
+/home/liu/Desktop/opcua_modbus_server/src/modbus_operate.c
+modbus_operate.h
+/home/liu/Desktop/opcua_modbus_server/src/modbus_operate.h
+
+/home/liu/Desktop/opcua_modbus_server/src/modbus_operate.h
+stdio.h
+-
+errno.h
+-
+modbus.h
+/home/liu/Desktop/opcua_modbus_server/src/modbus.h
+

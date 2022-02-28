@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/modbusServer.dir/main.c.o CMakeFiles/modbusServer.dir/modbus_operate.c.o CMakeFiles/modbusServer.dir/lib/open62541.c.o CMakeFiles/modbusServer.dir/lib/sqlite3.c.o  -o modbusServer   -L/home/liu/Desktop/opcua_modbus_server/src/lib  -Wl,-rpath,/home/liu/Desktop/opcua_modbus_server/src/lib -lmodbus -lpthread -ldl 
