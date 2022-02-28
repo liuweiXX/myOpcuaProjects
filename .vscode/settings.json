@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "typeinfo": "c",
+        "opcua_operate.h": "c",
+        "modbus_operate.h": "c",
+        "type_traits": "c"
+    }
+}

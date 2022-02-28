@@ -1,0 +1,5 @@
+/home/liu/Desktop/opcua_items/modbus_gate/build/CMakeFiles/rebuild_cache.dir
+/home/liu/Desktop/opcua_items/modbus_gate/build/CMakeFiles/edit_cache.dir
+/home/liu/Desktop/opcua_items/modbus_gate/build/bin/CMakeFiles/rebuild_cache.dir
+/home/liu/Desktop/opcua_items/modbus_gate/build/bin/CMakeFiles/edit_cache.dir
+/home/liu/Desktop/opcua_items/modbus_gate/build/bin/CMakeFiles/modbusServer.dir

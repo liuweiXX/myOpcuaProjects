@@ -1,0 +1,28 @@
+这个工具需要安装一个python库netifaces，使用下面命令去安装，
+
+pip3 install netifaces
+
+
+接着运行python3 create_self-signed.py -h来查看帮助信息
+
+# 生成Server的证书和私匙，使用默认参数
+python3 create_self-signed.py .  
+
+# 生成Server的证书和私匙：
+python3 create_self-signed.py -u urn:open62541.server.application -c server .
+
+
+# 生成Client的证书和私匙，自定义URI参数和名称
+python3 create_self-signed.py -u urn:open62541.client.application -c client .
+
+
+# 查看Server证书
+openssl x509 -in server_cert.der -inform der -noout -text
+# 查看Client证书
+openssl x509 -in client_cert.der -inform der -noout -text
+
+
+
+
+
+
